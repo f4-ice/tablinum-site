@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tablinum: boards, lists and cards as plain files on your Mac</title>
+    <meta
+      name="description"
+      content="Tablinum is a kanban app for the Mac. Boards hold lists, lists hold cards, and everything is saved as plain Markdown files in a folder you choose."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="assets/favicon.png" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="wrap">
+        <a class="brand" href="./" aria-label="Tablinum, home"><img src="assets/logo.png" alt="Tablinum" /></a>
+        <nav aria-label="Pages">
+          <a href="privacy/">Privacy</a>
+          <a href="support/">Support</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap">
+          <div>
+            <p class="eyebrow">A kanban app for the Mac</p>
+            <h1>Your boards, kept as <mark>plain files</mark> on your Mac.</h1>
+            <p class="lead">
+              Boards hold lists, and lists hold cards. Tablinum saves all of it as ordinary Markdown files in a
+              folder you choose, so your work is always yours to read, back up and keep.
+            </p>
+            <ul class="pills">
+              <li>macOS 12 or later</li>
+              <li>Mac with Apple silicon</li>
+              <li>No account needed</li>
+            </ul>
+          </div>
+
+          <div class="board" role="img" aria-label="A board with three lists of cards">
+            <div class="list">
+              <b>To do</b>
+              <div class="card"><i class="tag blue"></i><i></i><i class="short"></i></div>
+              <div class="card"><i></i><i class="hl"></i></div>
+              <div class="card"><i class="tag amber"></i><i class="short"></i></div>
+            </div>
+            <div class="list">
+              <b>Doing</b>
+              <div class="card"><i class="tag green"></i><i></i><i class="short"></i></div>
+              <div class="card lift"><i class="tag red"></i><i></i><i class="short"></i></div>
+            </div>
+            <div class="list">
+              <b>Done</b>
+              <div class="card"><i></i><i class="short"></i></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="wrap">
+          <h2>Simple where it can be, clever where it helps.</h2>
+          <p>Everything happens on your Mac. There is nothing to sign up for and nothing to sync unless you want to.</p>
+
+          <div class="grid">
+            <article class="tile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 6.5A2.5 2.5 0 0 1 6.5 4H10l2 2.5h5.5A2.5 2.5 0 0 1 20 9v8.5a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5z" />
+              </svg>
+              <h3>Files you own</h3>
+              <p>Every card is a Markdown file with its attachments next to it. Open them in any editor, back them up, or keep the folder in iCloud Drive.</p>
+            </article>
+
+            <article class="tile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M13 3 5 13.5h6L10 21l8-10.5h-6z" />
+              </svg>
+              <h3>Lists that act on their own</h3>
+              <p>Give a list a short script and it sorts its cards by deadline, passes them on, refuses the wrong ones or changes color when it fills up.</p>
+            </article>
+
+            <article class="tile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="8.5" />
+                <path d="M12 7.5V12l3 2" />
+              </svg>
+              <h3>Dates you cannot miss</h3>
+              <p>Start dates and deadlines change color as they come closer. You decide when, card by card, down to the minute.</p>
+            </article>
+
+            <article class="tile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M9 7 4 12l5 5" />
+                <path d="M4 12h10a6 6 0 0 1 6 6v1" />
+              </svg>
+              <h3>Undo, copy and paste</h3>
+              <p>Take back your last fifty changes, and copy cards or whole lists with the keys you already know. Deleted things wait in a trash.</p>
+            </article>
+
+            <article class="tile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3.5 13.8 9 19.5 11l-5.7 2L12 18.5 10.2 13 4.5 11l5.7-2z" />
+                <path d="M19 16.5v4M17 18.5h4" />
+              </svg>
+              <h3>Works with your AI assistant</h3>
+              <p>Connect an assistant such as Claude or Codex and ask it to add, move or tidy up cards. The connection runs on your Mac only.</p>
+            </article>
+
+            <article class="tile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3.5 5 6.5v5c0 4.2 2.9 7.6 7 9 4.1-1.4 7-4.8 7-9v-5z" />
+                <path d="m9.2 12 2 2 3.6-3.8" />
+              </svg>
+              <h3>Private by design</h3>
+              <p>Tablinum collects nothing and makes no connection to the internet. It can only reach the folder and the files you pick yourself.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap">
+        <span>© 2026 Tablinum</span>
+        <nav aria-label="Footer">
+          <a href="privacy/">Privacy policy</a>
+          <a href="support/">Support</a>
+          <a href="mailto:enricofont.management@gmail.com">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
